@@ -33,6 +33,11 @@ public class EmployeeController
         return  ResponseEntity.status(200).body(employee);
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity deleteEmployeeById(@PathVariable int id){
+        return null;
+    }
+
 
 
 
