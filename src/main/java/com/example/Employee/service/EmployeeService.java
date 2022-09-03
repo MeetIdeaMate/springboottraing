@@ -9,4 +9,6 @@ public interface EmployeeService {
     Employee getEmployeeById(int id);
 
     Employee putEmployeeById(int id, EmployeePostRequest employeePostRequest);
+
+    String deleteEmployeeById(int id);
 }

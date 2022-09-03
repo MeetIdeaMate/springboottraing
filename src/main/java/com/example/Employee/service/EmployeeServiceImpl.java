@@ -70,6 +70,11 @@ public class EmployeeServiceImpl implements  EmployeeService{
 
     }
 
+    @Override
+    public String deleteEmployeeById(int id) {
+        return null;
+    }
+
     private boolean findMajorOrNot(LocalDate dob){
         int age =  Period.between(dob, LocalDate.now()).getYears();
         if(age > 18){
